@@ -1,0 +1,108 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+button,
+textarea,
+select,
+option,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font-family: 'mr-eaves-xl-modern', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    padding-top: 176px;
+}
+
+#header {
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    transition: top 300ms ease-in-out, background-color 300ms;
+}
+
+#header .wrap {
+    padding: 30px 0 15px 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#header .wrap .logo {
+    display: block;
+    float: left;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 10;
+}
+
+#header .wrap .logo img {
+    display: block;
+    height: 62px;
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+#header .wrap .right {
+    float: right;
+}
+
+#header .wrap .right .top {
+    margin-bottom: 10px;
+}
+
+#header .wrap .right .top .top1 .phone {
+    background: url("../assets/img/icon_phone.png") no-repeat 0 7px;
+    background-size: 50px 100px;
+    margin-top: 4px;
+    float: right;
+    font-size: 18px;
+    line-height: 18px;
+    display: block;
+    padding: 6px 0 6px 70px;
+    color: #00C2F3;
+    cursor: pointer;
+}
+
+#header .wrap .right .top .top2 {
+    float: right;
+}
+
+#header .wrap .right .top .top1 .phone:hover {
+    background-position: 0 -70px;
+}
+
+.clear {
+    clear: both;
+}
